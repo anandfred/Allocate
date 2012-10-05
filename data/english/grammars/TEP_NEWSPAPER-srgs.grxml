@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<grammar xmlns="http://www.w3.org/2001/06/grammar" mode="voice" root="TEP_NEWSPAPER" version="1.0" xml:lang="en-us">
+    <rule id="TEP_NEWSPAPER" scope="public">
+        <ruleref uri="#Column0"/>
+    </rule>
+    <rule id="Column0" scope="private">
+        <one-of>
+            <item>newspaper<tag>newspaper</tag>
+            </item>
+            <item>two<tag>two</tag>
+            </item>
+        </one-of>
+    </rule>
+</grammar>

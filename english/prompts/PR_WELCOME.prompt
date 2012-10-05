@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PromptDoc>
+    <Prompt audioonly="false" bargeintype="speech" order="standard" version="1.0">
+        <PromptLevel count="1" valid="true">
+            <Properties>
+                <Property name="Timeout" value="5"/>
+                <Property name="BargeIn" value="false"/>
+                <Property name="TimeUnit" value="seconds"/>
+            </Properties>
+            <ChildItems>
+                <Segment class="com.avaya.sce.prompts.internal.segment.Condition" type="Condition">
+                    <Properties/>
+                    <ChildItems>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.IfStatement" type="If">
+                            <Properties>
+                                <Property name="Value" value="NAUSR"/>
+                                <Property name="Compare" value="EqualsIgnoreCase"/>
+                                <Property name="LeftVar" value="APPNAME"/>
+                                <Property name="Valid" value="true"/>
+                            </Properties>
+                            <ChildItems>
+                                <Segment class="com.avaya.sce.prompts.internal.segment.Phrase" type="Phrase">
+                                    <Properties>
+                                        <Property name="Name" value="PAS_4102"/>
+                                    </Properties>
+                                    <ChildItems/>
+                                </Segment>
+                            </ChildItems>
+                        </Segment>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.IfStatement" type="If">
+                            <Properties>
+                                <Property name="Value" value="MAUSR"/>
+                                <Property name="Compare" value="EqualsIgnoreCase"/>
+                                <Property name="LeftVar" value="APPNAME"/>
+                                <Property name="Valid" value="true"/>
+                            </Properties>
+                            <ChildItems>
+                                <Segment class="com.avaya.sce.prompts.internal.segment.Phrase" type="Phrase">
+                                    <Properties>
+                                        <Property name="Name" value="PAS_4103"/>
+                                    </Properties>
+                                    <ChildItems/>
+                                </Segment>
+                            </ChildItems>
+                        </Segment>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.IfStatement" type="If">
+                            <Properties>
+                                <Property name="Value" value="SIURC"/>
+                                <Property name="Compare" value="EqualsIgnoreCase"/>
+                                <Property name="LeftVar" value="APPNAME"/>
+                            </Properties>
+                            <ChildItems>
+                                <Segment class="com.avaya.sce.prompts.internal.segment.Phrase" type="Phrase">
+                                    <Properties>
+                                        <Property name="Name" value="PAS_4109"/>
+                                    </Properties>
+                                    <ChildItems/>
+                                </Segment>
+                            </ChildItems>
+                        </Segment>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.IfStatement" type="If">
+                            <Properties>
+                                <Property name="Value" value="PRPMG"/>
+                                <Property name="Compare" value="EqualsIgnoreCase"/>
+                                <Property name="LeftVar" value="APPNAME"/>
+                                <Property name="Valid" value="true"/>
+                            </Properties>
+                            <ChildItems>
+                                <Segment class="com.avaya.sce.prompts.internal.segment.Phrase" type="Phrase">
+                                    <Properties>
+                                        <Property name="Name" value="PAS_4104"/>
+                                    </Properties>
+                                    <ChildItems/>
+                                </Segment>
+                            </ChildItems>
+                        </Segment>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.IfStatement" type="If">
+                            <Properties>
+                                <Property name="Value" value="CLAUT"/>
+                                <Property name="Compare" value="EqualsIgnoreCase"/>
+                                <Property name="LeftVar" value="APPNAME"/>
+                                <Property name="Valid" value="true"/>
+                            </Properties>
+                            <ChildItems>
+                                <Segment class="com.avaya.sce.prompts.internal.segment.Phrase" type="Phrase">
+                                    <Properties>
+                                        <Property name="Name" value="PAS_4106"/>
+                                    </Properties>
+                                    <ChildItems/>
+                                </Segment>
+                            </ChildItems>
+                        </Segment>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.IfStatement" type="If">
+                            <Properties>
+                                <Property name="Value" value="BDUSR"/>
+                                <Property name="Compare" value="Equal"/>
+                                <Property name="LeftVar" value="APPNAME"/>
+                                <Property name="Valid" value="true"/>
+                            </Properties>
+                            <ChildItems>
+                                <Segment class="com.avaya.sce.prompts.internal.segment.Phrase" type="Phrase">
+                                    <Properties>
+                                        <Property name="Name" value="PAS_4107"/>
+                                    </Properties>
+                                    <ChildItems/>
+                                </Segment>
+                            </ChildItems>
+                        </Segment>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.IfStatement" type="If">
+                            <Properties>
+                                <Property name="Value" value="SIUSR"/>
+                                <Property name="Compare" value="EqualsIgnoreCase"/>
+                                <Property name="LeftVar" value="APPNAME"/>
+                                <Property name="Valid" value="true"/>
+                            </Properties>
+                            <ChildItems>
+                                <Segment class="com.avaya.sce.prompts.internal.segment.Phrase" type="Phrase">
+                                    <Properties>
+                                        <Property name="Name" value="PAS_4108"/>
+                                    </Properties>
+                                    <ChildItems/>
+                                </Segment>
+                            </ChildItems>
+                        </Segment>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.IfStatement" type="If">
+                            <Properties>
+                                <Property name="Value" value="SIURL"/>
+                                <Property name="Compare" value="EqualsIgnoreCase"/>
+                                <Property name="LeftVar" value="APPNAME"/>
+                                <Property name="Valid" value="true"/>
+                            </Properties>
+                            <ChildItems>
+                                <Segment class="com.avaya.sce.prompts.internal.segment.Phrase" type="Phrase">
+                                    <Properties>
+                                        <Property name="Name" value="PAS_4109"/>
+                                    </Properties>
+                                    <ChildItems/>
+                                </Segment>
+                            </ChildItems>
+                        </Segment>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.IfStatement" type="If">
+                            <Properties>
+                                <Property name="Value" value="JAUSL"/>
+                                <Property name="Compare" value="EqualsIgnoreCase"/>
+                                <Property name="LeftVar" value="APPNAME"/>
+                                <Property name="Valid" value="true"/>
+                            </Properties>
+                            <ChildItems>
+                                <Segment class="com.avaya.sce.prompts.internal.segment.Phrase" type="Phrase">
+                                    <Properties>
+                                        <Property name="Name" value="PAS_4111"/>
+                                    </Properties>
+                                    <ChildItems/>
+                                </Segment>
+                            </ChildItems>
+                        </Segment>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.IfStatement" type="If">
+                            <Properties>
+                                <Property name="Value" value="JAUSR"/>
+                                <Property name="Compare" value="EqualsIgnoreCase"/>
+                                <Property name="LeftVar" value="APPNAME"/>
+                                <Property name="Valid" value="true"/>
+                            </Properties>
+                            <ChildItems>
+                                <Segment class="com.avaya.sce.prompts.internal.segment.Phrase" type="Phrase">
+                                    <Properties>
+                                        <Property name="Name" value="PAS_4112"/>
+                                    </Properties>
+                                    <ChildItems/>
+                                </Segment>
+                            </ChildItems>
+                        </Segment>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.IfStatement" type="If">
+                            <Properties>
+                                <Property name="Value" value="C2C"/>
+                                <Property name="Compare" value="EqualsIgnoreCase"/>
+                                <Property name="LeftVar" value="APPNAME"/>
+                                <Property name="Valid" value="true"/>
+                            </Properties>
+                            <ChildItems>
+                                <Segment class="com.avaya.sce.prompts.internal.segment.Phrase" type="Phrase">
+                                    <Properties>
+                                        <Property name="Name" value="PAS_4113"/>
+                                    </Properties>
+                                    <ChildItems/>
+                                </Segment>
+                            </ChildItems>
+                        </Segment>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.IfStatement" type="If">
+                            <Properties>
+                                <Property name="Value" value="PDTH"/>
+                                <Property name="Compare" value="EqualsIgnoreCase"/>
+                                <Property name="LeftVar" value="APPNAME"/>
+                                <Property name="Valid" value="true"/>
+                            </Properties>
+                            <ChildItems>
+                                <Segment class="com.avaya.sce.prompts.internal.segment.Phrase" type="Phrase">
+                                    <Properties>
+                                        <Property name="Name" value="PAS_4115"/>
+                                    </Properties>
+                                    <ChildItems/>
+                                </Segment>
+                            </ChildItems>
+                        </Segment>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.IfStatement" type="If">
+                            <Properties>
+                                <Property name="Value" value="NACCT"/>
+                                <Property name="Compare" value="EqualsIgnoreCase"/>
+                                <Property name="LeftVar" value="APPNAME"/>
+                                <Property name="Valid" value="true"/>
+                            </Properties>
+                            <ChildItems>
+                                <Segment class="com.avaya.sce.prompts.internal.segment.Phrase" type="Phrase">
+                                    <Properties>
+                                        <Property name="Name" value="PAS_4116"/>
+                                    </Properties>
+                                    <ChildItems/>
+                                </Segment>
+                            </ChildItems>
+                        </Segment>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.IfStatement" type="If">
+                            <Properties>
+                                <Property name="Value" value="CACCT"/>
+                                <Property name="Compare" value="EqualsIgnoreCase"/>
+                                <Property name="LeftVar" value="APPNAME"/>
+                            </Properties>
+                            <ChildItems>
+                                <Segment class="com.avaya.sce.prompts.internal.segment.Phrase" type="Phrase">
+                                    <Properties>
+                                        <Property name="Name" value="PAS_4118"/>
+                                    </Properties>
+                                    <ChildItems/>
+                                </Segment>
+                            </ChildItems>
+                        </Segment>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.IfStatement" type="If">
+                            <Properties>
+                                <Property name="Value" value="CACN"/>
+                                <Property name="Compare" value="EqualsIgnoreCase"/>
+                                <Property name="LeftVar" value="APPNAME"/>
+                            </Properties>
+                            <ChildItems>
+                                <Segment class="com.avaya.sce.prompts.internal.segment.Phrase" type="Phrase">
+                                    <Properties>
+                                        <Property name="Name" value="PAS_4117"/>
+                                    </Properties>
+                                    <ChildItems/>
+                                </Segment>
+                            </ChildItems>
+                        </Segment>
+                    </ChildItems>
+                </Segment>
+                <Segment class="com.avaya.sce.prompts.internal.segment.TextVariable" type="TextVariable">
+                    <Properties>
+                        <Property name="Name" value="MSGOFDAY"/>
+                        <Property name="Format" value="text"/>
+                    </Properties>
+                    <ChildItems>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.SSMLVoice" type="SSMLVoice">
+                            <Properties>
+                                <Property name="Variant" value="3"/>
+                                <Property name="Gender" value="female"/>
+                                <Property name="Name" value="Samantha"/>
+                                <Property name="Age" value="10"/>
+                            </Properties>
+                            <ChildItems/>
+                        </Segment>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.SSMLSayAs" type="SSMLSayAs">
+                            <Properties>
+                                <Property name="Interpret-As" value="words"/>
+                            </Properties>
+                            <ChildItems/>
+                        </Segment>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.SSMLProsody" type="SSMLProsody">
+                            <Properties>
+                                <Property name="Range" value="medium"/>
+                                <Property name="Pitch" value="medium"/>
+                                <Property name="Volume" value="soft"/>
+                                <Property name="Rate" value="medium"/>
+                            </Properties>
+                            <ChildItems/>
+                        </Segment>
+                    </ChildItems>
+                </Segment>
+            </ChildItems>
+        </PromptLevel>
+    </Prompt>
+</PromptDoc>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<grammar xmlns="http://www.w3.org/2001/06/grammar" mode="voice" root="PAS_PERSONAL_PROPERTY" version="1.0" xml:lang="en-us">
+    <rule id="PAS_PERSONAL_PROPERTY" scope="public">
+        <ruleref uri="#Column0"/>
+    </rule>
+    <rule id="Column0" scope="private">
+        <one-of>
+            <item>personal<tag>personal</tag>
+            </item>
+            <item>one<tag>one</tag>
+            </item>
+        </one-of>
+    </rule>
+</grammar>

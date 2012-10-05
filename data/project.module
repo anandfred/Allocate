@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module category="PAS-TEP-V1" descriptorversion="1.0" entrypoint="portAlloc/Start" frameworkversion="04.01.10.01" iconlarge="icons/defaultapplicationlg.gif" iconsmall="icons/defaultapplicationsm.gif" modifyInputs="false" modifyOutputs="false" provider="The Washington Post" version="1.0.1" webname="portAlloc">
+    <description/>
+    <language name="english" root="en-us"/>
+    <dependencies>
+        <moduleref frameworkversion="04.01.10.01" name="SUNDAY" private="false" version="1.0.0">
+            <meta callflow-references="main"/>
+        </moduleref>
+        <moduleref frameworkversion="04.01.10.01" name="Circ_TV" private="false" version="1.0.0">
+            <meta callflow-references="main"/>
+        </moduleref>
+        <moduleref frameworkversion="04.01.10.01" name="Express" private="false" version="1.0.0">
+            <meta callflow-references="main"/>
+        </moduleref>
+        <moduleref frameworkversion="04.01.10.01" name="Advertisement" private="false" version="1.0.0">
+            <meta callflow-references="main"/>
+        </moduleref>
+        <moduleref frameworkversion="04.01.10.01" name="readback" private="false" version="1.0.0">
+            <meta callflow-references="main"/>
+        </moduleref>
+        <moduleref frameworkversion="04.01.10.01" name="zoneManager" private="false" version="1.0.0">
+            <meta callflow-references="main"/>
+        </moduleref>
+        <moduleref frameworkversion="04.01.10.01" name="Circ_Opt_Out" private="false" version="1.0.0">
+            <meta callflow-references="main"/>
+        </moduleref>
+        <moduleref frameworkversion="04.01.10.01" name="EXPRESSTEAM" private="false" version="1.0.0">
+            <meta callflow-references="main"/>
+        </moduleref>
+        <moduleref frameworkversion="04.01.10.01" name="Circ_IVR" private="false" version="1.0.0">
+            <meta callflow-references="main"/>
+        </moduleref>
+    </dependencies>
+</module>

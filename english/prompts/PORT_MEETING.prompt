@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PromptDoc>
+    <Prompt audioonly="false" bargeintype="speech" order="standard" version="1.0">
+        <PromptLevel count="1" valid="true">
+            <Properties>
+                <Property name="Timeout" value="8"/>
+                <Property name="BargeIn" value="true"/>
+                <Property name="TimeUnit" value="seconds"/>
+            </Properties>
+            <ChildItems>
+                <Segment class="com.avaya.sce.prompts.internal.segment.Phrase" type="Phrase">
+                    <Properties>
+                        <Property name="Name" value="PAS_MEETING"/>
+                    </Properties>
+                    <ChildItems/>
+                </Segment>
+                <Segment class="com.avaya.sce.prompts.internal.segment.AudioVariable" type="AudioVariable">
+                    <Properties>
+                        <Property name="Time Format" value="THMAM"/>
+                        <Property name="Name" value="meetingTime"/>
+                        <Property name="format" value="time"/>
+                    </Properties>
+                    <ChildItems/>
+                </Segment>
+            </ChildItems>
+        </PromptLevel>
+    </Prompt>
+</PromptDoc>

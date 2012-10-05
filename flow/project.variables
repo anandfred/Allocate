@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<projectvariables>
+    <variable factoryID="" name="EXTN" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="CLCT_EXTN:inputmode" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.field" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="CIRCMENU:utterance" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="ADVTMENU:inputmode" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="CLCT_EXTN:value" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.field" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="PASTEP:GOBACK" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.ui.moduleOutput" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="session:uui" owner="com.avaya.sce.core" type="com.avaya.sce.core.session" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="false"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="CONVRSNT_MENU:inputmode" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="date:audio" owner="com.avaya.sce.core" type="com.avaya.sce.core.date" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="date:dayofmonth" owner="com.avaya.sce.core" type="com.avaya.sce.core.date" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="MENU_DISPLAY:value" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="MENU_C2C:interpretation" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="CIRCMENU:inputmode" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="CLCT_EXTN:utterance" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.field" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="MENU_NODNIS:utterance" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="CONFIGPATH" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="session:aai" owner="com.avaya.sce.core" type="com.avaya.sce.core.session" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="false"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="MENU_C2C:utterance" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="session:channel" owner="com.avaya.sce.core" type="com.avaya.sce.core.session" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="false"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="CIRCMENU:interpretation" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="WORKDAY2:ENDTIME" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="MSGDAYPATH" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="session:lasterror" owner="com.avaya.sce.core" type="com.avaya.sce.core.session" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="false"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="session:sessionid" owner="com.avaya.sce.core" type="com.avaya.sce.core.session" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="false"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="CLCT_800_EXTN:value" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.field" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="CIRCMENU:value" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="Callid" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="MAINMENU:utterance" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="meetingTime" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="PAS_TEP:GOBACK" owner="com.avaya.sce.callflow" type="" value="" version="1.0"/>
+    <variable factoryID="" name="ADVTMENU:utterance" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="CLCT_EXTN:confidence" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.field" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="GRPNAME" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="ddLastException:message" owner="com.avaya.sce.core" type="com.avaya.sce.core.lastException" value="" version="1.0">
+        <editpolicies>
+            <policy name="appendable" value="false"/>
+            <policy name="deleteable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="MENU_DISPLAY:utterance" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="CLCT_800_EXTN:confidence" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.field" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="date:dayofyear" owner="com.avaya.sce.core" type="com.avaya.sce.core.date" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="MENU_NODNIS:confidence" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="GETDNISOBJ:ret1" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.ui.extensionOutput" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="HOLIDAY:HOLIDATE" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="redirectinfo:screeninginfo" owner="com.avaya.sce.core" type="com.avaya.sce.core.redirect" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="TRANSFER" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="TEMP" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="LOGFILE" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="DNIS" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="ddLastException:errorcode" owner="com.avaya.sce.core" type="com.avaya.sce.core.lastException" value="" version="1.0">
+        <editpolicies>
+            <policy name="appendable" value="false"/>
+            <policy name="deleteable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="MAINMENU:value" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="redirectinfo:reason" owner="com.avaya.sce.core" type="com.avaya.sce.core.redirect" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="MAINMENU:confidence" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="date:month" owner="com.avaya.sce.core" type="com.avaya.sce.core.date" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="time:millisecond" owner="com.avaya.sce.core" type="com.avaya.sce.core.time" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="TRIES" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="session:sharedmode" owner="com.avaya.sce.core" type="com.avaya.sce.core.session" value="" version="1.0">
+        <editpolicies>
+            <policy name="appendable" value="false"/>
+            <policy name="deleteable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="false"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="CLCT_800_EXTN:utterance" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.field" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="ADVTMENU:interpretation" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="CLCT_800_EXTN:interpretation" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.field" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="CLCT_EXTN:interpretation" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.field" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="WORKDAY2:WORKDAY" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="date:monthinyear" owner="com.avaya.sce.core" type="com.avaya.sce.core.date" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="session:vpconverseondata" owner="com.avaya.sce.core" type="com.avaya.sce.core.session" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="false"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="UNIQUEID" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="MAINMENU:interpretation" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="MENU_C2C:value" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="MENU_DISPLAY:confidence" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="MENU_C2C:confidence" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="MENU_NODNIS:interpretation" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="WORKDAY1:ENDTIME" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="MENU_NODNIS:inputmode" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="APPVDN" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="XFERFLAG" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="APPNAME" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="ddLastException:stacktrace" owner="com.avaya.sce.core" type="com.avaya.sce.core.lastException" value="" version="1.0">
+        <editpolicies>
+            <policy name="appendable" value="false"/>
+            <policy name="deleteable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="session:protocolname" owner="com.avaya.sce.core" type="com.avaya.sce.core.session" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="false"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="CallCenter" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="session:vpcoveragereason" owner="com.avaya.sce.core" type="com.avaya.sce.core.session" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="false"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="session:vpcalledextension" owner="com.avaya.sce.core" type="com.avaya.sce.core.session" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="false"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="time:minute" owner="com.avaya.sce.core" type="com.avaya.sce.core.time" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="WORKDAY1:WORKDAY" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="CIRCMENU:confidence" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="HOLIDAY:STARTTIME" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WORKDAY3:STARTTIME" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="date:dayofweeknum" owner="com.avaya.sce.core" type="com.avaya.sce.core.date" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="MENU_NODNIS:value" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="HOLI_DAY" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="CONVRSNT_MENU:utterance" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="time:timezone" owner="com.avaya.sce.core" type="com.avaya.sce.core.time" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="WORKDAY3:ENDTIME" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WORKDAY1:STARTTIME" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="CONVRSNT_MENU:value" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="NO_OF_PRE_CLOSE" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="ADVTMENU:confidence" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="MAINMENU:inputmode" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="HOLIDAY:ENDTIME" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="shareduui:id" owner="com.avaya.sce.core" type="com.avaya.sce.core.shareduui" value="" version="1.0">
+        <editpolicies>
+            <policy name="appendable" value="false"/>
+            <policy name="deleteable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="session:ani" owner="com.avaya.sce.core" type="com.avaya.sce.core.session" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="false"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="redirectinfo:presentationinfo" owner="com.avaya.sce.core" type="com.avaya.sce.core.redirect" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="session:sessionlabel" owner="com.avaya.sce.core" type="com.avaya.sce.core.session" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="false"/>
+            <policy name="valuesettable" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="ddLastException:type" owner="com.avaya.sce.core" type="com.avaya.sce.core.lastException" value="" version="1.0">
+        <editpolicies>
+            <policy name="appendable" value="false"/>
+            <policy name="deleteable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="session:protocolversion" owner="com.avaya.sce.core" type="com.avaya.sce.core.session" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="false"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="CLCT_800_EXTN:inputmode" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.field" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="ddLastException:object" owner="com.avaya.sce.core" type="com.avaya.sce.core.lastException" value="" version="1.0">
+        <editpolicies>
+            <policy name="appendable" value="false"/>
+            <policy name="deleteable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="WORKDAY2:STARTTIME" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WORKDAY3:WORKDAY" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="MSGOFDAY" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="CONVRSNT_MENU:confidence" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="PRECLORESPONSE" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="session:dnis" owner="com.avaya.sce.core" type="com.avaya.sce.core.session" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="false"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="session:vpreporturl" owner="com.avaya.sce.core" type="com.avaya.sce.core.session" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="false"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="session:vprdnis" owner="com.avaya.sce.core" type="com.avaya.sce.core.session" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="false"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="PRECLOS" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="redirectinfo:uri" owner="com.avaya.sce.core" type="com.avaya.sce.core.redirect" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="MENU_DISPLAY:inputmode" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="SYSTEMNAME" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="MENU_DISPLAY:interpretation" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="time:audio" owner="com.avaya.sce.core" type="com.avaya.sce.core.time" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="REPORTPATH" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="VDNMENU" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="time:second" owner="com.avaya.sce.core" type="com.avaya.sce.core.time" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="EXTNTRANSFER" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.ui.blindTransfer" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="time:hour" owner="com.avaya.sce.core" type="com.avaya.sce.core.time" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="session:vpcoveragetype" owner="com.avaya.sce.core" type="com.avaya.sce.core.session" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="false"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="EXTNOPT" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="TWPXFER" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.ui.blindTransfer" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="MENU_NODNIS:Column0" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="GETDNISOBJ:retVal" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.ui.extensionOutput" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="MENU_C2C:Column0" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="CONVRSNT_MENU:interpretation" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="date:year" owner="com.avaya.sce.core" type="com.avaya.sce.core.date" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="session:currentlanguage" owner="com.avaya.sce.core" type="com.avaya.sce.core.session" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="false"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="session:calltag" owner="com.avaya.sce.core" type="com.avaya.sce.core.session" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="false"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="ADVTMENU:value" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="MENU_C2C:inputmode" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="EXTENSION" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="date:dayofweek" owner="com.avaya.sce.core" type="com.avaya.sce.core.date" value="" version="1.0">
+        <editpolicies>
+            <policy name="deleteable" value="false"/>
+            <policy name="appendable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+    <variable factoryID="" name="shareduui:value" owner="com.avaya.sce.core" type="com.avaya.sce.core.shareduui" value="" version="1.0">
+        <editpolicies>
+            <policy name="appendable" value="false"/>
+            <policy name="deleteable" value="false"/>
+            <policy name="renameable" value="false"/>
+            <policy name="opaque" value="true"/>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+    </variable>
+</projectvariables>

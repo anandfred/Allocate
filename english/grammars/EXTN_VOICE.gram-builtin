@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar>
+    <properties>
+        <mode value="voice"/>
+        <type value="static"/>
+    </properties>
+    <data>
+        <options value="minlength=5;maxlength=6"/>
+        <builtintype value="digits"/>
+    </data>
+</grammar>

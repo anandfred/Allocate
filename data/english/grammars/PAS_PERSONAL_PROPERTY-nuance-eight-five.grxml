@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<grammar xmlns="http://www.w3.org/2001/06/grammar" mode="voice" root="PAS_PERSONAL_PROPERTY" xml:lang="en-us">
+    <rule id="PAS_PERSONAL_PROPERTY" scope="public">
+        <item>
+            <ruleref uri="#Column0"/>
+            <tag>assign(Column0 $return)</tag>
+        </item>
+        <tag><![CDATA[<cxtag (($Column0 ))><Column0($Column0)>]]></tag>
+    </rule>
+    <rule id="Column0" scope="private">
+        <one-of>
+            <item>personal<tag>return("personal")</tag>
+            </item>
+            <item>one<tag>return("one")</tag>
+            </item>
+        </one-of>
+    </rule>
+</grammar>

@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+This XML descriptor is automatically generated and managed by the
+application development environment.  While manual updates to this 
+file may be preserved, it is best to manage this file through the application development environment tool.
+
+Copyright 2004 Avaya Inc.
+--><!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app id="WebApp_ID">
+    <context-param>
+        <param-name>sage.startlanguage</param-name>
+        <param-value>english</param-value>
+        <description>The starting language for the application.</description>
+    </context-param>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <context-param>
+        <param-name>sage.ic.throwexceptions</param-name>
+        <param-value>true</param-value>
+        <description>IC Throw Runtime Exception on Error{true|false}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-ASR</param-name>
+        <param-value>Nuance OSR</param-value>
+        <description>Runtime ASR {SRGS|Nuance 8.5|Nuance OSR|IBM}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-SSML</param-name>
+        <param-value>true</param-value>
+        <description>Runtime SSML Generation {true|false} - "true" enables SSML generation, "false" disables.</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-Platform</param-name>
+        <param-value>IR</param-value>
+        <description>Runtime Platform {Desktop|Voice Portal|Other|IR}</description>
+    </context-param>
+    <context-param>
+        <param-name>grammar-caching</param-name>
+        <param-value>none</param-value>
+        <description>Grammar caching mode, none=no caching, default=system default or property setting</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-VXML-Compatibility</param-name>
+        <param-value>2.0</param-value>
+        <description>2.1 Allows VXML 2.1 extensions, 2.0 Uses VXML 2.0 Only</description>
+    </context-param>
+    <context-param>
+        <param-name>sage.cti.autoinvoke.callinfo</param-name>
+        <param-value>true</param-value>
+        <description>CTI Auto invoke CallInfo upon app start{true|false}</description>
+    </context-param>
+    <servlet id="SAGE-callflow-servlet_main_1">
+        <servlet-name>AppRoot</servlet-name>
+        <servlet-class>flow.AppRoot</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_3">
+        <servlet-name>set_callid</servlet-name>
+        <servlet-class>flow.set_callid</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1099">
+        <servlet-name>AGENT</servlet-name>
+        <servlet-class>flow.AGENT</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1093">
+        <servlet-name>OFFICEPAY</servlet-name>
+        <servlet-class>flow.OFFICEPAY</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1090">
+        <servlet-name>MAILSUB</servlet-name>
+        <servlet-class>flow.MAILSUB</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1348">
+        <servlet-name>PHASE2</servlet-name>
+        <servlet-class>flow.PHASE2</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1110">
+        <servlet-name>FINDAPP</servlet-name>
+        <servlet-class>flow.FINDAPP</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_35">
+        <servlet-name>check_dnis</servlet-name>
+        <servlet-class>flow.check_dnis</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1406">
+        <servlet-name>SUNDAY</servlet-name>
+        <servlet-class>flow.SUNDAY</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1123">
+        <servlet-name>PRMT_800_EXTN</servlet-name>
+        <servlet-class>flow.PRMT_800_EXTN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1120">
+        <servlet-name>EXTNMENU</servlet-name>
+        <servlet-class>flow.EXTNMENU</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1391">
+        <servlet-name>TVWEEK_IVR</servlet-name>
+        <servlet-class>flow.TVWEEK_IVR</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1143">
+        <servlet-name>SETEXTN</servlet-name>
+        <servlet-class>flow.SETEXTN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_778">
+        <servlet-name>C2C</servlet-name>
+        <servlet-class>flow.C2C</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1376">
+        <servlet-name>EXPRESS</servlet-name>
+        <servlet-class>flow.EXPRESS</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1035">
+        <servlet-name>RECRUITMENT</servlet-name>
+        <servlet-class>flow.RECRUITMENT</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_614">
+        <servlet-name>TEPDSCNT</servlet-name>
+        <servlet-class>flow.TEPDSCNT</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_885">
+        <servlet-name>EXTNRULES</servlet-name>
+        <servlet-class>flow.EXTNRULES</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_617">
+        <servlet-name>tepstop</servlet-name>
+        <servlet-class>flow.tepstop</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1301">
+        <servlet-name>SETAPP</servlet-name>
+        <servlet-class>flow.SETAPP</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_620">
+        <servlet-name>PASTEP</servlet-name>
+        <servlet-class>flow.PASTEP</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1290">
+        <servlet-name>GETDNIS</servlet-name>
+        <servlet-class>flow.GETDNIS</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1052">
+        <servlet-name>OBITS</servlet-name>
+        <servlet-class>flow.OBITS</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1041">
+        <servlet-name>AUTOMATIVE</servlet-name>
+        <servlet-class>flow.AUTOMATIVE</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1287">
+        <servlet-name>GD_CTI</servlet-name>
+        <servlet-class>flow.GD_CTI</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1047">
+        <servlet-name>REAL</servlet-name>
+        <servlet-class>flow.REAL</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_850">
+        <servlet-name>PRECLOSURE</servlet-name>
+        <servlet-class>flow.PRECLOSURE</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1058">
+        <servlet-name>WEDDING</servlet-name>
+        <servlet-class>flow.WEDDING</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_859">
+        <servlet-name>PLAY_PRE_CLOSE</servlet-name>
+        <servlet-class>flow.PLAY_PRE_CLOSE</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1063">
+        <servlet-name>OTHERS</servlet-name>
+        <servlet-class>flow.OTHERS</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_591">
+        <servlet-name>MENU_NODNIS</servlet-name>
+        <servlet-class>flow.MENU_NODNIS</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_594">
+        <servlet-name>SET_NODNIS</servlet-name>
+        <servlet-class>flow.SET_NODNIS</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1086">
+        <servlet-name>CIRCULATION</servlet-name>
+        <servlet-class>flow.CIRCULATION</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1327">
+        <servlet-name>ADTSMNT</servlet-name>
+        <servlet-class>flow.ADTSMNT</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1312">
+        <servlet-name>SESSIONAPP</servlet-name>
+        <servlet-class>flow.SESSIONAPP</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1073">
+        <servlet-name>CIRCMENU</servlet-name>
+        <servlet-class>flow.CIRCMENU</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1317">
+        <servlet-name>GDDNIS</servlet-name>
+        <servlet-class>flow.GDDNIS</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_956">
+        <servlet-name>MAINMENU</servlet-name>
+        <servlet-class>flow.MAINMENU</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_686">
+        <servlet-name>MENU_TRIES</servlet-name>
+        <servlet-class>flow.MENU_TRIES</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_953">
+        <servlet-name>TWP_MAIN_MENU</servlet-name>
+        <servlet-class>flow.TWP_MAIN_MENU</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_945">
+        <servlet-name>ONE_TO_NINE</servlet-name>
+        <servlet-class>flow.ONE_TO_NINE</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1237">
+        <servlet-name>MENU_DISPLAY</servlet-name>
+        <servlet-class>flow.MENU_DISPLAY</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_696">
+        <servlet-name>MENU_NINM</servlet-name>
+        <servlet-class>flow.MENU_NINM</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1234">
+        <servlet-name>TWP_DISPLAY</servlet-name>
+        <servlet-class>flow.TWP_DISPLAY</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_939">
+        <servlet-name>STAR_OR_POUND</servlet-name>
+        <servlet-class>flow.STAR_OR_POUND</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1240">
+        <servlet-name>RETAIL</servlet-name>
+        <servlet-class>flow.RETAIL</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1243">
+        <servlet-name>INATIONAL</servlet-name>
+        <servlet-class>flow.INATIONAL</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_169">
+        <servlet-name>Circulation_Readback</servlet-name>
+        <servlet-class>flow.Circulation_Readback</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_649">
+        <servlet-name>MENU</servlet-name>
+        <servlet-class>flow.MENU</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_923">
+        <servlet-name>CONVRSNT_MENU</servlet-name>
+        <servlet-class>flow.CONVRSNT_MENU</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_173">
+        <servlet-name>Circulation_ZoneManager</servlet-name>
+        <servlet-class>flow.Circulation_ZoneManager</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_920">
+        <servlet-name>CONVRSNT_IVR</servlet-name>
+        <servlet-class>flow.CONVRSNT_IVR</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_640">
+        <servlet-name>ANCE_PAS_WELCOME</servlet-name>
+        <servlet-class>flow.ANCE_PAS_WELCOME</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_669">
+        <servlet-name>MENU_C2C</servlet-name>
+        <servlet-class>flow.MENU_C2C</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_905">
+        <servlet-name>ANCE_THANKYOU</servlet-name>
+        <servlet-class>flow.ANCE_THANKYOU</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_666">
+        <servlet-name>SET_MENU</servlet-name>
+        <servlet-class>flow.SET_MENU</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_901">
+        <servlet-name>ANCE_MEETING</servlet-name>
+        <servlet-class>flow.ANCE_MEETING</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1276">
+        <servlet-name>APPLN</servlet-name>
+        <servlet-class>flow.APPLN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1424">
+        <servlet-name>TVWEEK_OPT_OUT</servlet-name>
+        <servlet-class>flow.TVWEEK_OPT_OUT</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1163">
+        <servlet-name>ANCE_CLOSED</servlet-name>
+        <servlet-class>flow.ANCE_CLOSED</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_743">
+        <servlet-name>EXTN_TRANSFER</servlet-name>
+        <servlet-class>flow.EXTN_TRANSFER</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1015">
+        <servlet-name>TWPEXTN</servlet-name>
+        <servlet-class>flow.TWPEXTN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_761">
+        <servlet-name>FIND_DNIS</servlet-name>
+        <servlet-class>flow.FIND_DNIS</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1415">
+        <servlet-name>EXPRESSTEAM</servlet-name>
+        <servlet-class>flow.EXPRESSTEAM</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1004">
+        <servlet-name>TWP_DELIVERY</servlet-name>
+        <servlet-class>flow.TWP_DELIVERY</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1007">
+        <servlet-name>TWP_XFER</servlet-name>
+        <servlet-class>flow.TWP_XFER</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_996">
+        <servlet-name>TWP_ADVT</servlet-name>
+        <servlet-class>flow.TWP_ADVT</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_999">
+        <servlet-name>ADVTMENU</servlet-name>
+        <servlet-class>flow.ADVTMENU</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_757">
+        <servlet-name>SET_JAUSL</servlet-name>
+        <servlet-class>flow.SET_JAUSL</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_713">
+        <servlet-name>PRMT_EXTN</servlet-name>
+        <servlet-class>flow.PRMT_EXTN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1185">
+        <servlet-name>FIND_IVR</servlet-name>
+        <servlet-class>flow.FIND_IVR</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_236">
+        <servlet-name>Customer_Service</servlet-name>
+        <servlet-class>flow.Customer_Service</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_988">
+        <servlet-name>NEWS</servlet-name>
+        <servlet-class>flow.NEWS</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_982">
+        <servlet-name>TELECHARGE</servlet-name>
+        <servlet-class>flow.TELECHARGE</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1198">
+        <servlet-name>BOARD</servlet-name>
+        <servlet-class>flow.BOARD</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_708">
+        <servlet-name>EXTN</servlet-name>
+        <servlet-class>flow.EXTN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_731">
+        <servlet-name>EXTN_RULES</servlet-name>
+        <servlet-class>flow.EXTN_RULES</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_0">
+        <servlet-name>Start</servlet-name>
+        <servlet-class>flow.Start</servlet-class>
+    </servlet>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1">
+        <servlet-name>AppRoot</servlet-name>
+        <url-pattern>/AppRoot</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_3">
+        <servlet-name>set_callid</servlet-name>
+        <url-pattern>/set_callid</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1099">
+        <servlet-name>AGENT</servlet-name>
+        <url-pattern>/AGENT</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1093">
+        <servlet-name>OFFICEPAY</servlet-name>
+        <url-pattern>/OFFICEPAY</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1090">
+        <servlet-name>MAILSUB</servlet-name>
+        <url-pattern>/MAILSUB</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1348">
+        <servlet-name>PHASE2</servlet-name>
+        <url-pattern>/PHASE2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1110">
+        <servlet-name>FINDAPP</servlet-name>
+        <url-pattern>/FINDAPP</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_35">
+        <servlet-name>check_dnis</servlet-name>
+        <url-pattern>/check_dnis</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1406">
+        <servlet-name>SUNDAY</servlet-name>
+        <url-pattern>/SUNDAY</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1123">
+        <servlet-name>PRMT_800_EXTN</servlet-name>
+        <url-pattern>/PRMT_800_EXTN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1120">
+        <servlet-name>EXTNMENU</servlet-name>
+        <url-pattern>/EXTNMENU</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1391">
+        <servlet-name>TVWEEK_IVR</servlet-name>
+        <url-pattern>/TVWEEK_IVR</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1143">
+        <servlet-name>SETEXTN</servlet-name>
+        <url-pattern>/SETEXTN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_778">
+        <servlet-name>C2C</servlet-name>
+        <url-pattern>/C2C</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1376">
+        <servlet-name>EXPRESS</servlet-name>
+        <url-pattern>/EXPRESS</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1035">
+        <servlet-name>RECRUITMENT</servlet-name>
+        <url-pattern>/RECRUITMENT</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_614">
+        <servlet-name>TEPDSCNT</servlet-name>
+        <url-pattern>/TEPDSCNT</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_885">
+        <servlet-name>EXTNRULES</servlet-name>
+        <url-pattern>/EXTNRULES</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_617">
+        <servlet-name>tepstop</servlet-name>
+        <url-pattern>/tepstop</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1301">
+        <servlet-name>SETAPP</servlet-name>
+        <url-pattern>/SETAPP</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_620">
+        <servlet-name>PASTEP</servlet-name>
+        <url-pattern>/PASTEP</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1290">
+        <servlet-name>GETDNIS</servlet-name>
+        <url-pattern>/GETDNIS</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1052">
+        <servlet-name>OBITS</servlet-name>
+        <url-pattern>/OBITS</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1041">
+        <servlet-name>AUTOMATIVE</servlet-name>
+        <url-pattern>/AUTOMATIVE</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1287">
+        <servlet-name>GD_CTI</servlet-name>
+        <url-pattern>/GD_CTI</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1047">
+        <servlet-name>REAL</servlet-name>
+        <url-pattern>/REAL</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_850">
+        <servlet-name>PRECLOSURE</servlet-name>
+        <url-pattern>/PRECLOSURE</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1058">
+        <servlet-name>WEDDING</servlet-name>
+        <url-pattern>/WEDDING</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_859">
+        <servlet-name>PLAY_PRE_CLOSE</servlet-name>
+        <url-pattern>/PLAY_PRE_CLOSE</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1063">
+        <servlet-name>OTHERS</servlet-name>
+        <url-pattern>/OTHERS</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_591">
+        <servlet-name>MENU_NODNIS</servlet-name>
+        <url-pattern>/MENU_NODNIS</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_594">
+        <servlet-name>SET_NODNIS</servlet-name>
+        <url-pattern>/SET_NODNIS</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1086">
+        <servlet-name>CIRCULATION</servlet-name>
+        <url-pattern>/CIRCULATION</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1327">
+        <servlet-name>ADTSMNT</servlet-name>
+        <url-pattern>/ADTSMNT</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1312">
+        <servlet-name>SESSIONAPP</servlet-name>
+        <url-pattern>/SESSIONAPP</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1073">
+        <servlet-name>CIRCMENU</servlet-name>
+        <url-pattern>/CIRCMENU</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1317">
+        <servlet-name>GDDNIS</servlet-name>
+        <url-pattern>/GDDNIS</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_956">
+        <servlet-name>MAINMENU</servlet-name>
+        <url-pattern>/MAINMENU</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_686">
+        <servlet-name>MENU_TRIES</servlet-name>
+        <url-pattern>/MENU_TRIES</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_953">
+        <servlet-name>TWP_MAIN_MENU</servlet-name>
+        <url-pattern>/TWP_MAIN_MENU</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_945">
+        <servlet-name>ONE_TO_NINE</servlet-name>
+        <url-pattern>/ONE_TO_NINE</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1237">
+        <servlet-name>MENU_DISPLAY</servlet-name>
+        <url-pattern>/MENU_DISPLAY</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_696">
+        <servlet-name>MENU_NINM</servlet-name>
+        <url-pattern>/MENU_NINM</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1234">
+        <servlet-name>TWP_DISPLAY</servlet-name>
+        <url-pattern>/TWP_DISPLAY</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_939">
+        <servlet-name>STAR_OR_POUND</servlet-name>
+        <url-pattern>/STAR_OR_POUND</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1240">
+        <servlet-name>RETAIL</servlet-name>
+        <url-pattern>/RETAIL</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1243">
+        <servlet-name>INATIONAL</servlet-name>
+        <url-pattern>/INATIONAL</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_169">
+        <servlet-name>Circulation_Readback</servlet-name>
+        <url-pattern>/Circulation_Readback</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_649">
+        <servlet-name>MENU</servlet-name>
+        <url-pattern>/MENU</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_923">
+        <servlet-name>CONVRSNT_MENU</servlet-name>
+        <url-pattern>/CONVRSNT_MENU</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_173">
+        <servlet-name>Circulation_ZoneManager</servlet-name>
+        <url-pattern>/Circulation_ZoneManager</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_920">
+        <servlet-name>CONVRSNT_IVR</servlet-name>
+        <url-pattern>/CONVRSNT_IVR</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_640">
+        <servlet-name>ANCE_PAS_WELCOME</servlet-name>
+        <url-pattern>/ANCE_PAS_WELCOME</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_669">
+        <servlet-name>MENU_C2C</servlet-name>
+        <url-pattern>/MENU_C2C</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_905">
+        <servlet-name>ANCE_THANKYOU</servlet-name>
+        <url-pattern>/ANCE_THANKYOU</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_666">
+        <servlet-name>SET_MENU</servlet-name>
+        <url-pattern>/SET_MENU</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_901">
+        <servlet-name>ANCE_MEETING</servlet-name>
+        <url-pattern>/ANCE_MEETING</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1276">
+        <servlet-name>APPLN</servlet-name>
+        <url-pattern>/APPLN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1424">
+        <servlet-name>TVWEEK_OPT_OUT</servlet-name>
+        <url-pattern>/TVWEEK_OPT_OUT</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1163">
+        <servlet-name>ANCE_CLOSED</servlet-name>
+        <url-pattern>/ANCE_CLOSED</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_743">
+        <servlet-name>EXTN_TRANSFER</servlet-name>
+        <url-pattern>/EXTN_TRANSFER</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1015">
+        <servlet-name>TWPEXTN</servlet-name>
+        <url-pattern>/TWPEXTN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_761">
+        <servlet-name>FIND_DNIS</servlet-name>
+        <url-pattern>/FIND_DNIS</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1415">
+        <servlet-name>EXPRESSTEAM</servlet-name>
+        <url-pattern>/EXPRESSTEAM</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1004">
+        <servlet-name>TWP_DELIVERY</servlet-name>
+        <url-pattern>/TWP_DELIVERY</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1007">
+        <servlet-name>TWP_XFER</servlet-name>
+        <url-pattern>/TWP_XFER</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_996">
+        <servlet-name>TWP_ADVT</servlet-name>
+        <url-pattern>/TWP_ADVT</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_999">
+        <servlet-name>ADVTMENU</servlet-name>
+        <url-pattern>/ADVTMENU</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_757">
+        <servlet-name>SET_JAUSL</servlet-name>
+        <url-pattern>/SET_JAUSL</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_713">
+        <servlet-name>PRMT_EXTN</servlet-name>
+        <url-pattern>/PRMT_EXTN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1185">
+        <servlet-name>FIND_IVR</servlet-name>
+        <url-pattern>/FIND_IVR</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_236">
+        <servlet-name>Customer_Service</servlet-name>
+        <url-pattern>/Customer_Service</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_988">
+        <servlet-name>NEWS</servlet-name>
+        <url-pattern>/NEWS</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_982">
+        <servlet-name>TELECHARGE</servlet-name>
+        <url-pattern>/TELECHARGE</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1198">
+        <servlet-name>BOARD</servlet-name>
+        <url-pattern>/BOARD</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_708">
+        <servlet-name>EXTN</servlet-name>
+        <url-pattern>/EXTN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_731">
+        <servlet-name>EXTN_RULES</servlet-name>
+        <url-pattern>/EXTN_RULES</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_0">
+        <servlet-name>Start</servlet-name>
+        <url-pattern>/Start</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</web-app>
